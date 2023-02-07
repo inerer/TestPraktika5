@@ -1,0 +1,26 @@
+﻿<Window x:Class="TestPraktika5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestPraktika5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+    <DataGrid AutoGenerateColumns="False" Name="DataGrid">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Номер" Binding="{Binding TableMainId}"></DataGridTextColumn>
+            <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Средняя оценка" Binding="{Binding AverageValue}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Пропуски"></DataGridTextColumn>
+            <DataGridTextColumn Header="Проп часов"></DataGridTextColumn>
+            <DataGridTextColumn Header="1янв"></DataGridTextColumn>
+            <DataGridTextColumn Header="2янв"></DataGridTextColumn>
+            <DataGridTextColumn Header="3янв"></DataGridTextColumn>
+            <DataGridTextColumn Header="4янв"></DataGridTextColumn>
+            <DataGridTextColumn Header="5нв"></DataGridTextColumn>
+        </DataGrid.Columns>
+        
+    </DataGrid>
+    </Grid>
+</Window>
