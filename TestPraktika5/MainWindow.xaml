@@ -11,14 +11,14 @@
         <DataGrid.Columns>
             <DataGridTextColumn Header="Номер" Binding="{Binding TableMainId}"></DataGridTextColumn>
             <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}"></DataGridTextColumn>
-            <DataGridTextColumn Header="Средняя оценка" Binding="{Binding AverageValue}"></DataGridTextColumn>
-            <DataGridTextColumn Header="Пропуски"></DataGridTextColumn>
-            <DataGridTextColumn Header="Проп часов"></DataGridTextColumn>
-            <DataGridTextColumn Header="1янв"></DataGridTextColumn>
-            <DataGridTextColumn Header="2янв"></DataGridTextColumn>
-            <DataGridTextColumn Header="3янв"></DataGridTextColumn>
-            <DataGridTextColumn Header="4янв"></DataGridTextColumn>
-            <DataGridTextColumn Header="5нв"></DataGridTextColumn>
+            <DataGridTextColumn Header="Средняя оценка" Binding="{Binding GetAverageGrade}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Пропуски" Binding="{Binding SumPass}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Проп часов" Binding="{Binding SumPassHour}"></DataGridTextColumn>
+            <DataGridTextColumn Header="1янв" Binding="{Binding Day1}"></DataGridTextColumn>
+            <DataGridTextColumn Header="2янв" Binding="{Binding Day2}"></DataGridTextColumn>
+            <DataGridTextColumn Header="3янв" Binding="{Binding Day3}"></DataGridTextColumn>
+            <DataGridTextColumn Header="4янв" Binding="{Binding Day4}"></DataGridTextColumn>
+            <DataGridTextColumn Header="5нв" Binding="{Binding Day5}"></DataGridTextColumn>
         </DataGrid.Columns>
         
     </DataGrid>

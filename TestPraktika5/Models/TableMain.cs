@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 
 namespace TestPraktika5.Models;
 
@@ -22,4 +23,6 @@ public partial class TableMain
     public string? Day4 { get; set; }
 
     public string? Day5 { get; set; }
+
+    
 }
